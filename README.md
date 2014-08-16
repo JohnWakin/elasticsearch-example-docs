@@ -1,4 +1,9 @@
-elasticsearch-example-docs
-==========================
+# Elasticsearch Example Documentation
 
-tbd
+The aim of this Project is to give **Concrete** Examples of using ElasticSearch.
+
+---
+
+### Table of Contents
+
+* [Contributing](../blob/master/docs/contributing.md)
