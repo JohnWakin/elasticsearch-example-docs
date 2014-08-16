@@ -1,0 +1,36 @@
+{
+    "index": 0,
+    "guid": "0000-0002a259-df6a-471f-9c27-434675733c9c",
+    "isActive": true,
+    "balance": "$2,504.78",
+    "picture": "http://placehold.it/32x32",
+    "age": 34,
+    "eyeColor": "brown",
+    "name": "Velez Elliott",
+    "gender": "male",
+    "company": "COSMETEX",
+    "email": "velezelliott@cosmetex.com",
+    "phone": "+1 (958) 483-3451",
+    "address": "624 Suydam Street, Lorraine, Alabama, 1183",
+    "about": "Quis incididunt laboris ut proident non cillum occaecat veniam commodo dolor est excepteur dolor. Id enim officia deserunt ex sit in. Deserunt excepteur aute ex nulla quis eu aute dolor non do ex sunt. Occaecat cillum anim veniam consequat mollit duis pariatur cillum do. Aliquip velit ea incididunt eiusmod adipisicing exercitation minim. Anim aliqua laborum laborum Lorem id in ullamco quis aliqua.\r\n",
+    "registered": "2014-03-02T00:55:33 -00:00",
+    "latitude": -51.194669,
+    "longitude": 123.18493,
+    "tags": [
+        "do",
+        "deserunt",
+        "non",
+        "ipsum",
+        "sunt",
+        "occaecat",
+        "tempor"
+    ],
+    "friends": [
+        {
+            "id": 1,
+            "name": "Emilia Patel"
+        }
+    ],
+    "greeting": "Hello, Velez Elliott! You have 2 unread messages.",
+    "favoriteFruit": "strawberry"
+}
