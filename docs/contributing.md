@@ -1,5 +1,7 @@
 # Contributing
 
+[Table of Contents](README.md)
+
 As with any Repository, please **Fork** and Create a **Pull Request**
 
 Github documentation on this subject:
