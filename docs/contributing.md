@@ -1,6 +1,6 @@
 # Contributing
 
-[Table of Contents](README.md)
+[Table of Contents](/README.md)
 
 As with any Repository, please **Fork** and Create a **Pull Request**
 
