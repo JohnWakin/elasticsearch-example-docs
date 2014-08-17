@@ -1,6 +1,6 @@
 # What is Elastic Search
 
-[Table of Contents](README.md)
+[Table of Contents](/README.md)
 
 > ### real time data
 Data flows into your system all the time. The question is … how quickly can that data become an insight? With Elasticsearch, real-time is the only time.
