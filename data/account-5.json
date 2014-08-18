@@ -1,0 +1,40 @@
+{
+    "index": 0,
+    "guid": "0000-ee0000e7-274e-4f34-bac9-1c69d8db0dab",
+    "isActive": false,
+    "balance": "$2,964.01",
+    "picture": "http://placehold.it/32x32",
+    "age": 36,
+    "eyeColor": "blue",
+    "name": "Morrison Fernandez",
+    "gender": "male",
+    "company": "OCEANICA",
+    "email": "morrisonfernandez@oceanica.com",
+    "phone": "+1 (821) 517-3734",
+    "address": "280 Lancaster Avenue, Camptown, North Dakota, 1482",
+    "about": "Lorem consequat adipisicing mollit tempor nostrud proident tempor. Esse consectetur velit eu proident cupidatat irure ex fugiat nostrud cillum proident reprehenderit. Aliqua non id ea et eu elit laboris ullamco non. Est id consequat minim id consequat. Ex laborum cupidatat cupidatat ex. Officia exercitation elit nulla quis ullamco aliquip id. Fugiat minim anim cupidatat officia ullamco anim deserunt in culpa reprehenderit adipisicing non.\r\n",
+    "registered": "2014-02-21T07:21:31 -00:00",
+    "latitude": 14.248372,
+    "longitude": -88.106497,
+    "tags": [
+        "ipsum",
+        "exercitation",
+        "dolore",
+        "sunt",
+        "eu",
+        "sit",
+        "officia"
+    ],
+    "friends": [
+        {
+            "id": 1,
+            "name": "Amelia Pierce"
+        },
+        {
+            "id": 2,
+            "name": "Mayer Mack"
+        }
+    ],
+    "greeting": "Hello, Morrison Fernandez! You have 7 unread messages.",
+    "favoriteFruit": "apple"
+}

@@ -1,0 +1,48 @@
+{
+    "index": 0,
+    "guid": "0000-ffb9144b-b504-4326-9044-3806af2c4792",
+    "isActive": false,
+    "balance": "$2,335.00",
+    "picture": "http://placehold.it/32x32",
+    "age": 34,
+    "eyeColor": "blue",
+    "name": "Angelina Gross",
+    "gender": "female",
+    "company": "XYQAG",
+    "email": "angelinagross@xyqag.com",
+    "phone": "+1 (820) 405-3357",
+    "address": "651 Arlington Place, Topaz, Maine, 4652",
+    "about": "Occaecat proident anim cupidatat nulla ullamco cupidatat officia elit laboris adipisicing eu nulla. Sit qui ut officia exercitation incididunt consectetur. Deserunt mollit ipsum irure exercitation pariatur consectetur sunt aliqua veniam consectetur exercitation fugiat. Ipsum consequat cillum anim deserunt id. Culpa dolor ex sit sit ea deserunt. Aliquip occaecat quis anim et et.\r\n",
+    "registered": "2014-01-17T05:21:33 -00:00",
+    "latitude": -21.133235,
+    "longitude": 148.785424,
+    "tags": [
+        "officia",
+        "Lorem",
+        "nulla",
+        "exercitation",
+        "culpa",
+        "incididunt",
+        "elit"
+    ],
+    "friends": [
+        {
+            "id": 1,
+            "name": "Keith Robbins"
+        },
+        {
+            "id": 2,
+            "name": "Sykes Petty"
+        },
+        {
+            "id": 3,
+            "name": "Rosetta Roach"
+        },
+        {
+            "id": 4,
+            "name": "Elizabeth Sampson"
+        }
+    ],
+    "greeting": "Hello, Angelina Gross! You have 10 unread messages.",
+    "favoriteFruit": "banana"
+}

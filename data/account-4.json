@@ -1,0 +1,48 @@
+{
+    "index": 0,
+    "guid": "0000-3b19d2dd-91dc-4eb8-be07-dc88ff79f08a",
+    "isActive": true,
+    "balance": "$2,151.45",
+    "picture": "http://placehold.it/32x32",
+    "age": 25,
+    "eyeColor": "green",
+    "name": "Hayden Hartman",
+    "gender": "male",
+    "company": "ACCUFARM",
+    "email": "haydenhartman@accufarm.com",
+    "phone": "+1 (883) 553-2152",
+    "address": "986 Voorhies Avenue, Wilsonia, Maine, 6057",
+    "about": "Qui aliquip occaecat officia in dolor nulla tempor ex proident reprehenderit. Esse in officia proident deserunt. Excepteur nostrud proident magna aute magna pariatur Lorem voluptate cupidatat.\r\n",
+    "registered": "2014-03-20T00:27:15 -00:00",
+    "latitude": -19.133895,
+    "longitude": -130.066185,
+    "tags": [
+        "sunt",
+        "non",
+        "do",
+        "deserunt",
+        "mollit",
+        "deserunt",
+        "nisi"
+    ],
+    "friends": [
+        {
+            "id": 1,
+            "name": "Williamson Cooper"
+        },
+        {
+            "id": 2,
+            "name": "Glover Head"
+        },
+        {
+            "id": 3,
+            "name": "Kerri Price"
+        },
+        {
+            "id": 4,
+            "name": "Fay Casey"
+        }
+    ],
+    "greeting": "Hello, Hayden Hartman! You have 9 unread messages.",
+    "favoriteFruit": "banana"
+}
