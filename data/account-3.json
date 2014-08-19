@@ -1,10 +1,10 @@
 {
-    "index": 0,
+    "group": "beta",
     "guid": "0000-0002a259-df6a-471f-9c27-434675733c9c",
     "isActive": true,
     "balance": "$2,504.78",
     "picture": "http://placehold.it/32x32",
-    "age": 34,
+    "age": 20,
     "eyeColor": "brown",
     "name": "Velez Elliott",
     "gender": "male",
