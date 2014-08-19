@@ -10,11 +10,11 @@ Prerequisite
 1. Run the following commands from the *root* of this **Project Repository**
 
 ```
-$ curl -XPOST 'localhost:9200/accounts/internal' --data-binary @docs/account-1.json
-$ curl -XPOST 'localhost:9200/accounts/internal' --data-binary @docs/account-2.json
-$ curl -XPOST 'localhost:9200/accounts/internal' --data-binary @docs/account-3.json
-$ curl -XPOST 'localhost:9200/accounts/internal' --data-binary @docs/account-4.json
-$ curl -XPOST 'localhost:9200/accounts/internal' --data-binary @docs/account-5.json
+$ curl -XPOST 'localhost:9200/accounts/internal' --data-binary @data/account-1.json
+$ curl -XPOST 'localhost:9200/accounts/internal' --data-binary @data/account-2.json
+$ curl -XPOST 'localhost:9200/accounts/internal' --data-binary @data/account-3.json
+$ curl -XPOST 'localhost:9200/accounts/internal' --data-binary @data/account-4.json
+$ curl -XPOST 'localhost:9200/accounts/internal' --data-binary @data/account-5.json
 ```
 
 2. Check data in **Elastic Search**
