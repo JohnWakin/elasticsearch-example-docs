@@ -4,6 +4,10 @@ The aim of this Project is to give **Concrete** Examples of using ElasticSearch.
 
 ---
 
+You may suggest specific example via the **Issues** section.
+
+---
+
 ### Table of Contents
 
 * [Contributing](/docs/contributing.md)
