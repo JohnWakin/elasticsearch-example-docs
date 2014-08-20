@@ -87,7 +87,7 @@ $ curl -XGET 'http://localhost:9200/accounts/_search' -d '{
 '
 ```
 
-Also using `terms`, this is also equal to
+Alternative, using `terms`, this is also equal to
 
 ```json
 $ curl -XGET 'http://localhost:9200/accounts/_search' -d '{
