@@ -7,6 +7,28 @@
 
 Nested filters with `Sort` & `size`.
 
+## SQL Example
+
+First example
+
+```sql
+...
+FROM accounts
+WHERE
+    (group = "alpha" AND age = 20)
+    OR
+    (group = "beta" AND age = 20)
+```
+
+Alternative
+
+```sql
+...
+FROM accounts
+WHERE
+    (group IN ("alpha", "beta") AND age = 20)
+```
+
 ## Request
 
 *Note: It is possible to specify a `type` in the url to filter results `http://localhost:9200/accounts/[TYPE]/_search`*
