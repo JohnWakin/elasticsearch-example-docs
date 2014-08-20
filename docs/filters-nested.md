@@ -38,7 +38,7 @@ WHERE
 
 > If a query is not specified, it defaults to the match_all query. This means that the filtered query can be used to wrap just a filter, so that it can be used wherever a query is expected
 
-Performance Tip: Even if performing a **Search**, exclude as many document as you can with a **Filter**, then query just the documents that remain will be faster.
+*Performance Tip*: Even if performing a **Search**, exclude as many document as you can with a **Filter**, then query just the documents that remain will be faster.
 
 *Note: It is possible to specify a `type` in the url to filter results `http://localhost:9200/accounts/[TYPE]/_search`*
 
