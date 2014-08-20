@@ -7,6 +7,11 @@
 
 Nested filters with `Sort` & `size`.
 
+> **Filters** are usually faster than **queries** because:
+
+> * they don’t have to calculate the relevance _score for each document —  the answer is just a boolean “Yes, the document matches the filter” or “No, the document does not match the filter”.
+> * the results from most filters can be cached in memory, making subsequent executions faster.
+
 ## SQL Example
 
 First example
