@@ -2,17 +2,28 @@
 
 [Table of Contents](/README.md)
 
-* [Request](#request)
-* [Response](#response)
+In page Navigation
 
-Nested filters with `Sort` & `size`.
+* [Problem (Intent)](#problem)
+* [Context (Applicability)](#context)
+* [Forces (Motivation)](#forces)
+* [Solution (Participants, Structure,Collaborations,Implementation)](#solution)
+* [Example (Sample Code)](#example)
+    * [Request](#request)
+* [Resulting Context (Consequences)](#resulting-context)
+    * [Response](#response)
+* [Rationale](#rationale)
+* [Known Issues](#known-issues)
+* [Related Patterns](#related-patterns)
 
-> **Filters** are usually faster than **queries** because:
+---
 
-> * they don’t have to calculate the relevance _score for each document —  the answer is just a boolean “Yes, the document matches the filter” or “No, the document does not match the filter”.
-> * the results from most filters can be cached in memory, making subsequent executions faster.
+## Problem
+(Intent)
 
-## SQL Example
+Multiple Nested Filters (Nested Conditions) with `Sort` & `size`.
+
+Similar SQL equivalent:
 
 First example
 
@@ -34,7 +45,26 @@ WHERE
     (group IN ("alpha", "beta") AND age = 20)
 ```
 
-## Request
+## Context
+(Applicability)
+
+> **Filters** are usually faster than **queries** because:
+
+> * they don’t have to calculate the relevance _score for each document —  the answer is just a boolean “Yes, the document matches the filter” or “No, the document does not match the filter”.
+> * the results from most filters can be cached in memory, making subsequent executions faster.
+
+## Forces
+(Motivation)
+
+...
+
+## Solution
+(Participants, Structure,Collaborations,Implementation)
+
+## Example
+(Sample Code)
+
+### Request
 
 > If a query is not specified, it defaults to the match_all query. This means that the filtered query can be used to wrap just a filter, so that it can be used wherever a query is expected
 
@@ -136,7 +166,10 @@ $ curl -XGET 'http://localhost:9200/accounts/_search' -d '{
 '
 ```
 
-## Response
+## Resulting Context
+(Consequences)
+
+### Response
 
 ```json
 {
@@ -253,3 +286,17 @@ $ curl -XGET 'http://localhost:9200/accounts/_search' -d '{
    }
 }
 ```
+
+## Rationale
+*(optional)*
+
+...
+
+## Known Issues
+
+...
+
+## Related Patterns
+
+...
+

@@ -2,37 +2,42 @@
 
 ## ALIAS (Also Known As) *(optional)*
 
----
-
 [Table of Contents](/README.md)
 
 In page Navigation
 
-* [Problem](#problem)
-* [Context](#context)
-* [Context](#context)
-* [Forces](#forces)
-* [Solution](#solution)
-* [Resulting Context](#resulting-context)
+* [Problem (Intent)](#problem)
+* [Context (Applicability)](#context)
+* [Forces (Motivation)](#forces)
+* [Solution (Participants, Structure,Collaborations,Implementation)](#solution)
+* [Example (Sample Code)](#example)
+* [Resulting Context (Consequences)](#resulting-context)
 * [Rationale](#rationale)
 * [Known Issues](#known-issues)
 * [Related Patterns](#related-patterns)
 
 ---
 
-## Problem (Intent)
+## Problem
+(Intent)
 
-## Context (Applicability)
+## Context
+(Applicability)
 
-## Forces (Motivation)
+## Forces
+(Motivation)
 
-## Solution (Participants, Structure,Collaborations,Implementation)
+## Solution
+(Participants, Structure,Collaborations,Implementation)
 
-## Example (Sample Code)
+## Example
+(Sample Code)
 
-## Resulting Context (Consequences)
+## Resulting Context
+(Consequences)
 
-## Rationale *(optional)*
+## Rationale
+*(optional)*
 
 ## Known Issues
 
