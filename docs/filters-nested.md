@@ -16,7 +16,8 @@ In page Navigation
 
 ---
 
-## Problem (Intent)
+## Problem
+(Intent)
 
 Multiple Nested Filters (Nested Conditions) with `Sort` & `size`.
 
@@ -42,20 +43,24 @@ WHERE
     (group IN ("alpha", "beta") AND age = 20)
 ```
 
-## Context (Applicability)
+## Context
+(Applicability)
 
 > **Filters** are usually faster than **queries** because:
 
 > * they don’t have to calculate the relevance _score for each document —  the answer is just a boolean “Yes, the document matches the filter” or “No, the document does not match the filter”.
 > * the results from most filters can be cached in memory, making subsequent executions faster.
 
-## Forces (Motivation)
+## Forces
+(Motivation)
 
 ...
 
-## Solution (Participants, Structure,Collaborations,Implementation)
+## Solution
+(Participants, Structure,Collaborations,Implementation)
 
-## Example (Sample Code)
+## Example
+(Sample Code)
 
 ### Request
 
@@ -159,7 +164,8 @@ $ curl -XGET 'http://localhost:9200/accounts/_search' -d '{
 '
 ```
 
-## Resulting Context (Consequences)
+## Resulting Context
+(Consequences)
 
 ### Response
 
@@ -279,7 +285,8 @@ $ curl -XGET 'http://localhost:9200/accounts/_search' -d '{
 }
 ```
 
-## Rationale *(optional)*
+## Rationale
+*(optional)*
 
 ...
 

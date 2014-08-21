@@ -11,6 +11,7 @@ In page Navigation
 * [Context](#context)
 * [Forces](#forces)
 * [Solution](#solution)
+* [Example](#example)
 * [Resulting Context](#resulting-context)
 * [Rationale](#rationale)
 * [Known Issues](#known-issues)
@@ -18,19 +19,26 @@ In page Navigation
 
 ---
 
-## Problem (Intent)
+## Problem
+(Intent)
 
-## Context (Applicability)
+## Context
+(Applicability)
 
-## Forces (Motivation)
+## Forces
+(Motivation)
 
-## Solution (Participants, Structure,Collaborations,Implementation)
+## Solution
+(Participants, Structure,Collaborations,Implementation)
 
-## Example (Sample Code)
+## Example
+(Sample Code)
 
-## Resulting Context (Consequences)
+## Resulting Context
+(Consequences)
 
-## Rationale *(optional)*
+## Rationale
+*(optional)*
 
 ## Known Issues
 
