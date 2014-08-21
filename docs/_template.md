@@ -2,8 +2,6 @@
 
 ## ALIAS (Also Known As) *(optional)*
 
----
-
 [Table of Contents](/README.md)
 
 In page Navigation
