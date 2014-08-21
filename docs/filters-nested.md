@@ -6,7 +6,6 @@ In page Navigation
 
 * [Problem](#problem)
 * [Context](#context)
-* [Context](#context)
 * [Forces](#forces)
 * [Solution](#solution)
 * [Resulting Context](#resulting-context)
