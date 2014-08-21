@@ -6,12 +6,12 @@
 
 In page Navigation
 
-* [Problem](#problem)
-* [Context](#context)
-* [Forces](#forces)
-* [Solution](#solution)
-* [Example](#example)
-* [Resulting Context](#resulting-context)
+* [Problem (Intent)](#problem)
+* [Context (Applicability)](#context)
+* [Forces (Motivation)](#forces)
+* [Solution (Participants, Structure,Collaborations,Implementation)](#solution)
+* [Example (Sample Code)](#example)
+* [Resulting Context (Consequences)](#resulting-context)
 * [Rationale](#rationale)
 * [Known Issues](#known-issues)
 * [Related Patterns](#related-patterns)
