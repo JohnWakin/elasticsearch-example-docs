@@ -12,8 +12,8 @@ In page Navigation
 * [Solution (Participants, Structure,Collaborations,Implementation)](#solution)
 * [Example (Sample Code)](#example)
 * [Resulting Context (Consequences)](#resulting-context)
-* [Rationale](#rationale)
-* [Known Issues](#known-issues)
+* [Rationale](#rationale) *(optional)*
+* [Known Uses](#known-uses) *(optional)*
 * [Related Patterns](#related-patterns)
 
 ---
@@ -39,6 +39,6 @@ In page Navigation
 ## Rationale
 *(optional)*
 
-## Known Issues
+## Known Uses
 
 ## Related Patterns
