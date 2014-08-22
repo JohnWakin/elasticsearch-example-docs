@@ -1,6 +1,6 @@
 # Elasticsearch Example Documentation
 
-The aim of this Project is to give **Concrete** Examples of using ElasticSearch.
+The aim of this Project is to give **Concrete** Examples of using ElasticSearch, together with hints, tips, and undocumented features. It was born from a belief that while the official documentation describes a lot, it is example based, and does not give an exhaustive decription of everything that can be done with this powerful tool.
 
 ---
 
