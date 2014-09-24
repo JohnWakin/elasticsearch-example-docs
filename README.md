@@ -14,6 +14,8 @@ You may suggest specific example via the **Issues** section.
     * [Template](/docs/_template.md)
 * [License](/LICENSE)
 * [What is Elastic Search](/docs/what-is-elasticsearch.md)
-* [Setup](/docs/setup.md)
-* [Loading Example Data](/docs/load-example-data.md)
-* [Nested Filters](/docs/filters-nested.md)
+* 1. Setup
+    * [Install ElasticSearch](/docs/1-setup/install.md)
+    * [Loading Example Data](/docs/1-setup/load-example-data.md)
+* 2. Filters
+    * [Nested Filters](/docs/2-filters/filters-nested.md)
