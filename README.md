@@ -19,3 +19,5 @@ You may suggest specific example via the **Issues** section.
     * [Loading Example Data](/docs/1-setup/load-example-data.md)
 * 2. Filters
     * [Nested Filters](/docs/2-filters/filters-nested.md)
+* 3. Aggregation
+    * [Multiple Aggregation Terms](/docs/3-aggregation/aggregation-multiple-terms.md)
