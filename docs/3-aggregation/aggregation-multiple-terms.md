@@ -1,6 +1,10 @@
 # Multiple Aggregation Terms
 
+`Work In Progress`
+
 ## ALIAS / AKA: Facets
+
+> Facets are deprecated and will be removed in a future release. You are encouraged to migrate to aggregations instead.
 
 [Table of Contents](/README.md)
 
@@ -21,8 +25,12 @@ In page Navigation
 ## Problem
 (Intent)
 
+Search Results returned are too large to be useful.
+
 ## Context
 (Applicability)
+
+Applying `Aggregations` (previously named `Facets`) displays the additional optional filters that can be applied to the result set to make them more relevant.
 
 ## Forces
 (Motivation)
@@ -33,8 +41,84 @@ In page Navigation
 ## Example
 (Sample Code)
 
+### Request
+
+Along with the `query` or `filter` the `terms aggregation` can be applied to the result set returned.
+
+```json
+{
+    "aggs" : {
+        "groups" : {
+            "terms" : {
+                "field" : "group",
+                "size" : 5
+            }
+        },
+        "active" : {
+            "terms" : {
+                "field" : "isActive"
+            }
+        }
+    }
+}
+```
+
 ## Resulting Context
 (Consequences)
+
+### Response
+
+```
+[aggregations] => Array
+    (
+        [active] => Array
+            (
+                [buckets] => Array
+                    (
+                        [0] => Array
+                            (
+                                [key] => F
+                                [doc_count] => 3
+                            )
+
+                        [1] => Array
+                            (
+                                [key] => T
+                                [doc_count] => 2
+                            )
+
+                    )
+
+            )
+
+        [groups] => Array
+            (
+                [buckets] => Array
+                    (
+                        [0] => Array
+                            (
+                                [key] => alpha
+                                [doc_count] => 2
+                            )
+
+                        [1] => Array
+                            (
+                                [key] => beta
+                                [doc_count] => 2
+                            )
+
+                        [2] => Array
+                            (
+                                [key] => gamma
+                                [doc_count] => 1
+                            )
+
+                    )
+
+            )
+
+    )
+```
 
 ## Rationale
 *(optional)*

@@ -20,4 +20,7 @@ You may suggest specific example via the **Issues** section.
 * 2. Filters
     * [Nested Filters](/docs/2-filters/filters-nested.md)
 * 3. Aggregation
-    * [Multiple Aggregation Terms](/docs/3-aggregation/aggregation-multiple-terms.md)
+    * `Work In Progress` [Multiple Aggregation Terms](/docs/3-aggregation/aggregation-multiple-terms.md)
+* 4. Runtime Parameters / Options
+    * [Refresh](/docs/4-runtime-parameters/refresh-parameter.md)
+        * [PHP Example of Refresh](/example/php/4-runtime-parameters/refresh-parameter.md)
