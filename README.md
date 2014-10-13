@@ -24,3 +24,5 @@ You may suggest specific example via the **Issues** section.
 * 4. Runtime Parameters / Options
     * [Refresh](/docs/4-runtime-parameters/refresh-parameter.md)
         * [PHP Example of Refresh](/example/php/4-runtime-parameters/refresh-parameter.md)
+* 5. Fields (customise response fields)
+    * [](/docs/5-fields/fields-in-response.md)
