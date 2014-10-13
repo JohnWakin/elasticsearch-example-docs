@@ -14,7 +14,7 @@ You may suggest specific example via the **Issues** section.
     * [Template](/docs/_template.md)
 * [License](/LICENSE)
 * [What is Elastic Search](/docs/what-is-elasticsearch.md)
-* 1. Setup
+* 1. Setup OR use online [Demo Sandbox](http://elasticsearch-sandbox.herokuapp.com)
     * [Install ElasticSearch](/docs/1-setup/install.md)
     * [Loading Example Data](/docs/1-setup/load-example-data.md)
 * 2. Filters
