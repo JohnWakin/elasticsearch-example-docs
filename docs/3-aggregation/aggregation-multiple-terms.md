@@ -68,56 +68,38 @@ Along with the `query` or `filter` the `terms aggregation` can be applied to the
 
 ### Response
 
-```
-[aggregations] => Array
-    (
-        [active] => Array
-            (
-                [buckets] => Array
-                    (
-                        [0] => Array
-                            (
-                                [key] => F
-                                [doc_count] => 3
-                            )
-
-                        [1] => Array
-                            (
-                                [key] => T
-                                [doc_count] => 2
-                            )
-
-                    )
-
-            )
-
-        [groups] => Array
-            (
-                [buckets] => Array
-                    (
-                        [0] => Array
-                            (
-                                [key] => alpha
-                                [doc_count] => 2
-                            )
-
-                        [1] => Array
-                            (
-                                [key] => beta
-                                [doc_count] => 2
-                            )
-
-                        [2] => Array
-                            (
-                                [key] => gamma
-                                [doc_count] => 1
-                            )
-
-                    )
-
-            )
-
-    )
+```json
+...
+"aggregations":{
+    "active":{
+        "buckets":[
+            {
+                "key":"F",
+                "doc_count":3
+            },
+            {
+                "key":"T",
+                "doc_count":2
+            }
+        ]
+    },
+    "groups":{
+        "buckets":[
+            {
+                "key":"alpha",
+                "doc_count":2
+            },
+            {
+                "key":"beta",
+                "doc_count":2
+            },
+            {
+                "key":"gamma",
+                "doc_count":1
+            }
+        ]
+    }
+}
 ```
 
 ## Rationale
